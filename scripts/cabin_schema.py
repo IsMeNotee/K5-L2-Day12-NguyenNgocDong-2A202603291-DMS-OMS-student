@@ -45,7 +45,8 @@ LABELS = {
         "seat": SEATS,
         "seatbelt": ["unknown", "worn_correct", "worn_incorrect", "not_worn"],
     }),
-    "child_seat": ("rectangle", {"seat": SEATS, "occupied": ["unknown", "no"]}),
+    # Class-approved addition, confirmed by the user on 2026-11-21.
+    "child_seat": ("rectangle", {"seat": SEATS, "occupied": ["unknown", "no", "yes"]}),
     "infant_seat": ("rectangle", {"seat": SEATS, "facing": ["rear", "front"]}),
     "object": ("rectangle", {"seat": SEATS, "type": ["other", "bag", "box", "cup"]}),
     "frame_meta": ("tag", {
@@ -93,3 +94,4 @@ def cvat_labels_json():
 
 if __name__ == "__main__":
     print(json.dumps(cvat_labels_json(), indent=2, ensure_ascii=False))
+
