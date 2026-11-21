@@ -1,3 +1,19 @@
+# Bài nộp Day 12 — Nguyễn Ngọc Đồng · 2A202603291 · G02
+
+Đây là hồ sơ của Nguyễn Ngọc Đồng cho bài DMS/OMS, gồm 22 khung bắt buộc và 4 khung mở rộng. Các ZIP export chỉ có annotation, không kèm ảnh.
+
+- [Tình trạng hồ sơ và việc còn lại](README_NGAY_NOP.md)
+- [ZIP hồ sơ](K5-L2-DAY12-NguyenNgocDong-2A202603291-DMSOMS.zip)
+- [Kiểm tra bài chính](check_final.txt) · [Kiểm tra phần mở rộng](check_extra.txt)
+- [Danh sách lớp](class_list_v0.md) · [Nhật ký IR](ir_log.csv) · [Tự đánh giá](self_review.md)
+- [Giải trình review chưa thực hiện](review_status.md) · [Khai báo AI](prompts.md)
+
+Schema đã bổ sung `child_seat.occupied=yes` theo quy tắc được lớp chấp thuận, do người làm xác nhận. Checker với schema này báo **0 lỗi, 0 cảnh báo** cho các export hiện có. Các log checkpoint là lần kiểm lại trên bản cuối, không phải log lịch sử.
+
+**Chưa hoàn tất toàn bộ bằng chứng:** D04 còn `open/open` trong export, trong khi mô tả mới của người làm chưa xác định được trạng thái hai mắt; cần sửa trên CVAT và xuất lại. Chưa thực hiện review chéo do chưa có export của bạn được ghép. `disagreement_log.csv` hiện chỉ có tiêu đề; bảng tự kiểm kỹ thuật không thay E3.
+
+---
+
 # Lab Ngày 12 — DMS & OMS: gán nhãn khung hình cabin RGB + IR
 
 AI20K K5 · L2 · Ngày 12 · 14:00–18:00 · CVAT chạy trên máy của bạn · làm **cá nhân hoặc nhóm 2–4 người**

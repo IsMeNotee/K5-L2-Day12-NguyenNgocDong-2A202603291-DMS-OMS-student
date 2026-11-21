@@ -1,0 +1,6 @@
+THỬ TƯƠNG THÍCH — KHÔNG PHẢI KẾT QUẢ ĐẠT CHECKER GỐC.
+Chỉ bổ sung occupied=yes trong bộ nhớ. Không chỉnh XML hoặc file checker/schema.
+Chưa xác nhận coach chấp thuận; GUIDE công khai vẫn không dùng yes. Không có manifest.
+File: C:\Users\Mr Dong\Desktop\Day12\K5-L2-DAY12-NguyenNgocDong-2A202603291-DMSOMS\export_final.zip
+Ảnh: 22 · đã có frame_meta: 22 · số đối tượng: child_seat=12, face=6, face13=6, hand=12, infant_seat=4, object=10, person=10
+Kết quả: 0 lỗi, 0 cảnh báo. Cảnh báo cần bạn tự xét, không tự động là sai.

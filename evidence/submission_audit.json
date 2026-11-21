@@ -1,0 +1,78 @@
+{
+  "prepared_date_local": "2026-11-21",
+  "timezone": "Asia/Bangkok (GMT+7)",
+  "status": "DRAFT_INCOMPLETE_EVIDENCE",
+  "identity": {
+    "name_from_supplied_QC": "Nguyễn Ngọc Đồng",
+    "student_id": "2A202603291",
+    "dataset": "G02"
+  },
+  "required_filenames_present": [
+    "export_final.zip",
+    "check_cpA.txt",
+    "check_cpB.txt",
+    "check_final.txt",
+    "disagreement_log.csv",
+    "ir_log.csv",
+    "class_list_v0.md",
+    "self_review.md",
+    "exit_ticket.md",
+    "TEAM.md",
+    "prompts.md"
+  ],
+  "check_exit_codes": {
+    "check_cpA.txt": 0,
+    "check_cpB.txt": 0,
+    "check_final.txt": 0,
+    "check_extra.txt": 0
+  },
+  "peer_review": {
+    "performed": false,
+    "disagreement_rows": 0,
+    "reason": "User reports assigned peer has left; independent export not supplied; explanation and separate technical review included"
+  },
+  "ir_log": {
+    "rows": 4,
+    "basis": "User-provided visual observations in the current conversation",
+    "confirmed_visual_observations": 4,
+    "confirmation_source": "User report; assistant has not viewed cabin images"
+  },
+  "annotation_followup": [
+    {
+      "image": "D04.png",
+      "current_eye_left": "open",
+      "current_eye_right": "open",
+      "user_observation": "Cannot clearly see either eye opening",
+      "required_action": "Review in CVAT and set both eyes to unknown if still indeterminate; inspect point flags individually; re-export and rerun checker"
+    }
+  ],
+  "visual_self_review_confirmed": false,
+  "official_schema_approval_received": true,
+  "schema_approval_basis": "User confirmed occupied=yes and script changes are approved for this class on 2026-11-21",
+  "schema_amendment": {
+    "label": "child_seat",
+    "attribute": "occupied",
+    "allowed": [
+      "unknown",
+      "no",
+      "yes"
+    ],
+    "scope": "Local checker/schema, packaged checker, and authorized GitHub publication payload"
+  },
+  "manifest_supplied": false,
+  "source_repository": "IsMeNotee/K5-L2-Day12-NguyenNgocDong-2A202603291-DMS-OMS-student",
+  "source_checker_git_blob": "f0dcebffc126d87354d148d6fe3980052a07211b",
+  "source_schema_git_blob": "a2b0d2dd7d1d95be0a801453d34e7efaef7959b0",
+  "patched_schema_sha256": "d9037020b8c4ad9b97e5ca27edd1b85588d8d6c86cb3a56b8f979755b6851f63",
+  "source_archives_unchanged": {
+    "Day12.zip": "afe433b07f02e624018c6dd033978158b93d4ba46c93c3daeb81ba221228e2e4",
+    "Day12_Extra.zip": "65d564c1206b56971372b65587179f285a139e72d40cdff79d1d1ab81dc4213b",
+    "Day12_QC_G02.zip": "a0ad404077f16ffb7e0949f03892a9d9da5e016ac2e485c61e84da87cd7cf83f"
+  },
+  "github_publication": {
+    "requested_by_user": true,
+    "repository": "IsMeNotee/K5-L2-Day12-NguyenNgocDong-2A202603291-DMS-OMS-student",
+    "branch": "main",
+    "verification": "See GitHub commit history and local github_publish_result.json"
+  }
+}
